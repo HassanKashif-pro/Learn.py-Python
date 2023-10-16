@@ -1,0 +1,10 @@
+print("List Generator")
+print("")
+start = int(input("Start at: "))
+print("")
+end_at = int(input("End at: "))
+print("")
+incriment = int(input("Incriment Between Values: "))
+print("") 
+for i in range (start, end_at , incriment):
+ print(i)
